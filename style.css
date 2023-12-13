@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ffffff, #f8f8f8);
+}
+
+#drum-machine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #111111, #000000);
+    box-shadow: 0 5px 10px rgba(11, 10, 10, 0.9);
+    color: white;
+    height: 80vh;
+    width: 80vh;
+    
+}
+h1{
+    padding-bottom: 30px;
+}
+
+.row{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.drum-pad{
+    border: solid white 1px;
+    padding: 20px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.drum-pad:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
